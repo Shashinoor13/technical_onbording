@@ -31,28 +31,22 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Nepal Stock Market Observer API",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Created a REST API to provide stock market data for companies in Nepal.Data is collected using python. The API is built using Node.js and Express.",
+    url: "#",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Video Calling App Using WebRTC",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Built a video calling app using WebRTC and Flutter. The app allows users to create rooms and join calls.",
+    url: "#",
   },
   {
-    title: "My Resume Site",
+    title: "My Portfolio",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This portfolio was built using React. It showcases my work and provides a bit of information about me.",
+    url: "#",
   },
 ];
 
@@ -63,8 +57,8 @@ const Portfolio = () => {
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            src="https://images.unsplash.com/photo-1713199716594-033b0991c2c6?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            style={{ height: "40%", width: "100%", objectFit: "contain" }}
             alt={imageAltText}
           />
         </div>
